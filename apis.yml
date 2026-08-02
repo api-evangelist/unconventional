@@ -1,8 +1,14 @@
 aid: unconventional
 name: Unconventional
-description: 'Unconventional is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Unconventional (Unconventional, Inc.) is an AI-hardware research company
+  rethinking the foundations of the computer to optimize energy efficiency for AI.
+  Founded by experts in AI systems, analog circuits, computing theory, and neuroscience,
+  and backed by Playground Global, the company researches dynamical-systems computing
+  substrates — coupled-oscillator (Kuramoto) hardware, an instruction set architecture
+  for dynamical-system hardware, and hardware/software neural co-evolution — targeting
+  biology-scale energy efficiency. Its open-source Un-0 model generates images with
+  simulated coupled oscillators. Unconventional does not currently publish a public
+  API, developer portal, or hosted product.'
 url: https://raw.githubusercontent.com/api-evangelist/unconventional/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/274912506?v=4
 tags:
 - Company
-- Ai
+- AI
+- AI Hardware
+- Analog Computing
+- Energy Efficiency
+- Dynamical Systems
+- Image Generation
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://unconv.ai/
+- type: Blog
+  url: https://unconv.ai/blog/
+- type: Careers
+  url: https://unconv.ai/careers/
+- type: GitHubOrganization
+  url: https://github.com/unconv-ai
+- type: SourceCode
+  url: https://github.com/unconv-ai/Un-0
+- type: Twitter
+  url: https://x.com/unconvai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/unconvai/
+- type: LLMsTxt
+  url: llms/unconventional-llms.txt
+- type: DomainSecurity
+  url: security/unconventional-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,30 @@
+# Unconventional
+
+> Unconventional (Unconventional, Inc. — unconv.ai) is an AI-hardware research company rethinking the foundations of the computer to optimize energy efficiency for AI. Founded by experts in AI systems, analog circuits, computing theory, and neuroscience, and backed by Playground Global, the company works on dynamical-systems computing substrates — coupled-oscillator (Kuramoto) hardware, an instruction set architecture for dynamical-system hardware, and hardware/software neural co-evolution — targeting biology-scale energy efficiency for AI. Unconventional publishes research and open-source code but does not currently offer a public API, developer portal, or hosted product.
+
+## Company
+
+- [Website](https://unconv.ai/): Company homepage
+- [Blog](https://unconv.ai/blog/): Research and company posts
+- [Careers](https://unconv.ai/careers/): Open roles
+- [Grant](https://unconv.ai/grant/): Unconventional grant program
+- [GitHub](https://github.com/unconv-ai): Official GitHub organization (verified domain unconv.ai)
+- [X](https://x.com/unconvai): X / Twitter
+- [LinkedIn](https://www.linkedin.com/company/unconvai/): LinkedIn
+
+## Open Source
+
+- [Un-0](https://github.com/unconv-ai/Un-0): Image generation model powered by a simulated system of coupled oscillators (Kuramoto dynamics) — Python, MIT license, with training recipes and pretrained checkpoints (CIFAR-10, ImageNet-64)
+
+## Selected Blog Posts
+
+- [Smoothing the Triangle: Rethinking the Memory Stack for Unconventional AI](https://unconv.ai/blog/smoothing-the-triangle-rethinking-the-memory-stack-for-unconventional-ai/): 2026-07-09
+- [Speaking the Language of Physics: Introducing the First ISA for Dynamical System Hardware](https://unconv.ai/blog/speaking-the-language-of-physics-introducing-the-first-instruction-set-architecture-isa-for-dynamical-system-hardware/): 2026-06-30
+- [Introducing Un-0: Generating Images with Coupled Oscillators](https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/): 2026-06-25
+- [Machine Learning with Dynamics](https://unconv.ai/blog/machine-learning-with-dynamics/): 2026-05-21
+- [How to improve AI energy efficiency by 1000x](https://unconv.ai/blog/how-to-improve-ai-energy-efficiency-by-1000x/): 2026-05-07
+
+## API Evangelist Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/unconventional/refs/heads/main/apis.yml): Machine-readable profile of Unconventional
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/unconventional/refs/heads/main/security/unconventional-domain-security.yml): Probed TLS/DNS security posture for unconv.ai
