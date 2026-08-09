@@ -1,14 +1,12 @@
 aid: unconventional
 name: Unconventional
-description: 'Unconventional (Unconventional, Inc.) is an AI-hardware research company
-  rethinking the foundations of the computer to optimize energy efficiency for AI.
-  Founded by experts in AI systems, analog circuits, computing theory, and neuroscience,
-  and backed by Playground Global, the company researches dynamical-systems computing
-  substrates — coupled-oscillator (Kuramoto) hardware, an instruction set architecture
-  for dynamical-system hardware, and hardware/software neural co-evolution — targeting
-  biology-scale energy efficiency. Its open-source Un-0 model generates images with
-  simulated coupled oscillators. Unconventional does not currently publish a public
-  API, developer portal, or hosted product.'
+description: Unconventional (Unconventional, Inc.) is an AI-hardware research company rethinking the foundations
+  of the computer to optimize energy efficiency for AI. Founded by experts in AI systems, analog circuits,
+  computing theory, and neuroscience, and backed by Playground Global, the company researches dynamical-systems
+  computing substrates — coupled-oscillator (Kuramoto) hardware, an instruction set architecture for dynamical-system
+  hardware, and hardware/software neural co-evolution — targeting biology-scale energy efficiency. Its
+  open-source Un-0 model generates images with simulated coupled oscillators. Unconventional does not
+  currently publish a public API, developer portal, or hosted product.
 url: https://raw.githubusercontent.com/api-evangelist/unconventional/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +27,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-08-08'
 image: https://avatars.githubusercontent.com/u/274912506?v=4
 tags:
 - Company
@@ -65,8 +63,12 @@ common:
   url: llms/unconventional-llms.txt
 - type: DomainSecurity
   url: security/unconventional-domain-security.yml
+- type: BlogRSS
+  url: https://unconv.ai/feed/
 x-enrichment:
   date: '2026-07-21'
   status: minimal
   artifacts_added: 3
   pass: local-v1
+x-merged-from:
+- unconventional-ai
