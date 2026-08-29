@@ -14,6 +14,18 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -54,6 +66,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/unconv-ai/Un-0/issues
 - type: License
   name: MIT
   url: https://github.com/unconv-ai/Un-0/blob/main/LICENSE
